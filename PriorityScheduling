@@ -1,0 +1,71 @@
+import java.util.Scanner;
+ 
+public class PriorityScheduling{
+        
+    public static void main(String args[]) {
+            Scanner s = new Scanner(System.in);
+ 
+            int x,numofprocess,process[],processpriority[],bursttime[],waittime[],turnaroundtime[],avewaittime,aveturnaroundtime,i;
+ 
+            process = new int[10];
+            processpriority = new int[10];
+            bursttime = new int[10];
+            waittime = new int[10];
+            turnaroundtime = new int[10];
+ 
+ 
+            System.out.print("Enter the number of process : ");
+            numofprocess = s.nextInt();
+            System.out.print("\n\t Enter burst time : time priorities \n");
+
+            for(i=0;i<numofprocess;i++)
+            {
+              System.out.print("\nProcess["+(i+1)+"]:");
+              bursttime[i] = s.nextInt();
+              processpriority[i] = s.nextInt();
+              process[i]=i+1;
+            }
+
+            //sorting on the basis of priority
+            for(i=0;i<numofprocess-1;i++)
+            {
+              for(int j=i+1;j<numofprocess;j++)
+              {
+                if(processpriority[i]>processpriority[j])
+                {
+                   x=processpriority[i];
+                   processpriority[i]=processpriority[j];
+                   processpriority[j]=x;
+                   x=bursttime[i];
+                   bursttime[i]=bursttime[j];
+                   bursttime[j]=x;
+                   x=process[i];
+                   process[i]=process[j];
+                   process[j]=x;
+                }
+              }
+            }
+            waittime[0]=0;
+            avewaittime=0;
+            turnaroundtime[0]=bursttime[0];
+            aveturnaroundtime=turnaroundtime[0];
+            for(i=1;i<numofprocess;i++)
+            {
+               waittime[i]=turnaroundtime[i-1];
+               avewaittime+=waittime[i];
+               turnaroundtime[i]=waittime[i]+bursttime[i];
+               aveturnaroundtime+=turnaroundtime[i];
+            }
+ 
+            //Displaying the process
+ 
+            System.out.print("\n\nProcess \t Burst Time \t Wait Time \t Turn Around Time   Priority \n");
+            for(i=0;i<numofprocess;i++)
+            System.out.print("\n   "+process[i]+"\t\t   "+bursttime[i]+"\t\t     "+waittime[i]+"\t\t     "+turnaroundtime[i]+"\t\t     "+processpriority[i]+"\n");
+            avewaittime/=numofprocess;
+            aveturnaroundtime/=numofprocess;
+            System.out.print("\n Average Wait Time : "+avewaittime);
+            System.out.print("\n Average Turn Around Time : "+aveturnaroundtime);
+            System.out.println();
+        }
+}
