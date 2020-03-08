@@ -10,7 +10,6 @@ public class FcfsScheduling
     {
         Scanner in = new Scanner(System.in);
         
-        // int total = 0;
         float avg = 0;
         float averageWaitingTime = 0;
         float averageTurnAroundTime = 0;
@@ -21,7 +20,7 @@ public class FcfsScheduling
         String[] processID = new String[processNumber]; 
         int[] burstTime = new int[processNumber];
         int[] waitingTime = new int[processNumber];
-        // If ipa-apil ni sir ang arrival time
+        // For arrival time
         int[] arrivalTime = new int[processNumber];
         int[] turnAroundTime = new int[processNumber];
         
