@@ -1,10 +1,10 @@
 # ITPLATECH22
 
-This is our repository for our final requirement for the Operating System Algoritm.</br>
+This is our repository for our final requirement for the Operating System Algoritm.</br></br>
 Made by the following students:
-Aligway, Levin Skye J.
-Cuetara, Mel Allen
-Danao, Dennis Marc
+</br>Aligway, Levin Skye J.
+</br>Cuetara, Mel Allen
+</br>Danao, Dennis Marc
 Ponce, Nikko Andrew
 
 
