@@ -17,7 +17,8 @@ Before you download these codes, first you must have the following:</br></br>
 >Disk space: 125 megabytes of free disk space<</br>
 </br></br>
 
-Linux operating system:
-Processor: 800 MHz Intel Pentium III workstation or equivalent
-Memory: 512 megabytes
-Disk space: 125 megabytes of free disk space
+<b>Linux operating system:</b></b>
+</br>
+>Processor: 800 MHz Intel Pentium III workstation or equivalent</b>
+>Memory: 512 megabytes</b>
+>Disk space: 125 megabytes of free disk space</b>
