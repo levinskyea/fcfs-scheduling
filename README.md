@@ -12,8 +12,8 @@ This is our repository for our final requirement for the Operating System Algori
 Before you download these codes, first you must have the following:</br></br>
 <b>Microsoft Windows operating systems:</b>
 </br>
->Processor: 780 MHz Intel Pentium III workstation or equivalent
->Memory: 512 megabytes
->Disk space: 125 megabytes of free disk space
-</b></br>
+>Processor: 780 MHz Intel Pentium III workstation or equivalent</br>
+>Memory: 512 megabytes</br>
+>Disk space: 125 megabytes of free disk space</br>
+</br></br>
 
