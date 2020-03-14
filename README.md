@@ -10,9 +10,14 @@ This is our repository for our final requirement for the Operating System Algori
 # System Requirements
 
 Before you download these codes, first you must have the following:</br></br>
-<b>Microsoft Windows operating systems:</b></br>
->>Processor: 780 MHz Intel Pentium III workstation or equivalent
-</br>&nbsp;Memory: 512 megabytes
-</br>&nbsp;Disk space: 125 megabytes of free disk space
-
-
+<b>Microsoft Windows operating systems:</b>
+</br>
+>Processor: 780 MHz Intel Pentium III workstation or equivalent
+>Memory: 512 megabytes
+>Disk space: 125 megabytes of free disk space
+</b></br>
+<b>Linux operating system:</b>
+</br>
+>Processor: 800 MHz Intel Pentium III workstation or equivalent
+>Memory: 512 megabytes
+>Disk space: 125 megabytes of free disk space
