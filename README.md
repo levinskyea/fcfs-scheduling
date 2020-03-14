@@ -33,13 +33,13 @@ Before you download these codes, first you must have the following:</br></br>
 NetBeans IDE runs on the J2SE JDK 5.0 (JavaTM 2 JDK, Standard Edition), which consists of the Java Runtime Environment plus developer tools for compiling, debugging, and running applications written in the JavaTM language. NetBeans IDE 5.0 also runs on J2SE SDK version 1.4.2, but it has only been tested on JDK 5.0.
 </br></br>
 <b>Note:</b> If you wish to run the IDE on earlier versions of the SDK or if you prefer to install the IDE manually, you can download archived versions of the IDE at http://java.sun.com/products/archive/index.html.
-</br>
+</br></br>
 You can download the JDK for your platform from one of the sites listed below:
 
-Solaris: http://java.sun.com/j2se/1.5.0/
-Windows: http://java.sun.com/j2se/1.5.0/
-Linux: http://java.sun.com/j2se/1.5.0/
-Mac OS X: http://www.apple.com/support/downloads/javaupdate142.html (Mac OS X 10.3.4 or later). Mac OS upgrades are also available via Apple's Software Update mechanism.
-Open VMS: http://h18012.www1.hp.com/java/download/index.html
+Solaris: http://java.sun.com/j2se/1.5.0/</br>
+Windows: http://java.sun.com/j2se/1.5.0/</br>
+Linux: http://java.sun.com/j2se/1.5.0/</br>
+Mac OS X: http://www.apple.com/support/downloads/javaupdate142.html (Mac OS X 10.3.4 or later). Mac OS upgrades are also available via Apple's Software Update mechanism.</br>
+Open VMS: http://h18012.www1.hp.com/java/download/index.html</br>
 OS/2: http://www.goldencode.com/company/software/j2se/index.html or http://www.innotek.de/products/javaos2/javaos2general_e.html.
-If you get a NullPointerException when starting the IDE on OS/2, try changing the name of your JAVA_HOME/jre directory to all capital letters.
+If you get a NullPointerException when starting the IDE on OS/2, try changing the name of your JAVA_HOME/jre directory to all capital letters.</br>
